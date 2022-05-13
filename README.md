@@ -1,2 +1,2 @@
-# TeamProject
-Northwest Normal University Software Engineering Experiment
+# Software Engineering Experiment
+EX7
