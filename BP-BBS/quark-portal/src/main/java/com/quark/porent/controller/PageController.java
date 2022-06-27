@@ -12,6 +12,11 @@ public class PageController {
         return "index";
     }
 
+    @RequestMapping("/")
+    public String IndexPage() {
+        return "index";
+    }
+
     @RequestMapping("/label")
     public String labelhome() {
         return "label/home";
@@ -20,5 +25,15 @@ public class PageController {
     @RequestMapping("/chat")
     public String chathome(){
         return "chat/home";
+    }
+
+    @RequestMapping("/oj")
+    public String ojhome(){
+        return "oj/home";
+    }
+
+    @RequestMapping("/files")
+    public String fileshome(){
+        return "files/home";
     }
 }

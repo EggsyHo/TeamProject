@@ -88,7 +88,7 @@ CREATE TABLE `quark_label` (
 -- ----------------------------
 -- Records of quark_label
 -- ----------------------------
-INSERT INTO `quark_label` VALUES ('1', '关于JavaSe的话题', 'JavaSe', '203');
+INSERT INTO `quark_label` VALUES ('1', '关于01背包的话题', 'bp', '203');
 
 -- ----------------------------
 -- Table structure for quark_notification
